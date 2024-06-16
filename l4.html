@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cuteeeeeeeeeeeeeeeeee</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <style>
+          .bg{
+            background-color: palevioletred;
+          }
+          .i4{
+            margin-top: 160px;
+          }
+          .b6{
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+          #readersnepal{
+        position: absolute;
+        top:50px;
+        left:50px;
+        border: 0cap;
+        border-radius: 4px;
+    }
+    </style>
+</head>
+<body class="bg">
+    <center>
+        <div class="i4">
+            <img src="img4.jpeg" height="300px" width="300px">
+            <p><strong>Manja na! Kitna Bhav khayegi</strong></p>
+            <p>bht galat baat hai</p>
+            <a href="C:\Users\NEW\OneDrive\Desktop\kitten\l5.html">
+                <button class="b6">Yes</button>
+            </a>
+            <button id= "readersnepal" class = "btn btn-success">No</button>
+            <script>
+                $(function(){
+                    $("#readersnepal").on({
+                        mouseover: function(){
+                        $(this).css({
+                            left: (Math.random()*200)+"px",
+                            top: (Math.random()*200)+"px",
+                        });
+                        }
+                    });
+                });
+                </script>
+        </div>
+    </center>
+
+</body>
+</html>
